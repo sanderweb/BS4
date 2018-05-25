@@ -1,0 +1,153 @@
+/*BODY*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #1886C7;
+    text-transform: uppercase;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 400;  
+}
+/*END BODY*/
+/*Remeber ALT*/
+img[alt=""],
+img:not([alt]) {
+    border: 5px dashed #ff0000;
+}
+/*END ATL*/
+
+
+
+
+
+/*NAVBAR*/
+.navbar {
+    border-bottom: #1886C7 5px solid;
+}
+
+.navbar .navbar-brand {
+    color: #1886C7;
+    font-size: 24px;
+}
+
+.bg-dark {
+    background-color: rgba(0,0,0,7);
+}
+
+.nav-link {
+    color: white;
+    text-transform: uppercase;
+    transition: color .5s ease;
+}
+
+.nav-link:hover {
+    color: #1886C7 !important;
+    
+}
+
+/*END NAVBAR*/
+
+/*HEADER SECTION*/
+#headerSection {
+    background: url('../images/william-bout-264826.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+#headerSection .overlay {
+    background-color: rgba(0,0,0,.7);
+}
+
+#headerSection .row {
+    height: 100vh;
+}
+
+#headerSection h1 {
+    color: white;
+    
+}
+
+#headerSection span{
+    color: #1886c7 !important;
+}
+
+#headerSection p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn btn-outline-primary {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+/*END HEADER SECTION*/
+
+
+
+
+/*FEATURE SECTION*/
+#features .fa {
+    font-size: 40px;
+}
+
+.feature-top {
+    transition: color .5s ease;
+}
+
+.feature-top:hover  {
+    color: #1886c7;
+    cursor: pointer;
+}
+
+#feature .fa {
+    font-size: 40px;
+}
+
+/*
+#feature h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+*/
+
+/*END FEATURE SECTION*/
+
+
+
+
+/*OUR HISTORY*/
+#ourHistory h2 {
+    border-left: 6px solid #1886c7;
+    padding-left: 30px;
+}
+
+#ourHistory .col-md-6 {
+    display: inline;
+}
+
+#ourHistory .btn-outline-primary {
+    position: absolute;
+    bottom: 0 auto;
+}
+
+#ourHistory p {
+    line-height: 28px;
+    
+}
+/*END OUR HISTORY*/
+
+
+
+
