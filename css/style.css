@@ -273,7 +273,37 @@ img:not([alt]) {
 }
 /*END PORTFOLIO SECTION*/
 
-/*CARROSEL*/
+/*TESTIMUNIAL*/
+#testimonials {
+    background: linear-gradient(
+    rgba(0,0,0, .7), rgba(0,0,0, .7)
+    ),
+        url(../images/charles-forerunner-378-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;    
+}
 
-/*END CARROSEL*/
+.quote {
+    color: rgba(24, 134, 199, .6);
+    margin-bottom: 30px;
+}
+
+.carousel-item img {
+    opacity: .1;
+}
+
+.blockquote-footer {
+    color: #1886c7;
+}
+/*END TESTIMUNIAL*/
+
+
+
+
+
+
+
 
