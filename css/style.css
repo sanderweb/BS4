@@ -300,6 +300,49 @@ img:not([alt]) {
 }
 /*END TESTIMUNIAL*/
 
+/*CONTACT SECTION*/
+#contact {
+    background-color: #faf5f9;
+}
+
+#contact .input-ground-addon {
+/*    width: 50px;*/
+    border-radius: 0;
+    color: #fff;
+    background-color: #1886c7;
+}
+
+#contact .form-control, #contact .btn {
+    border-radius: 0;
+}
+
+.input-group-prepend .input-group-text {
+    background-color: #1886f7;
+    color: #fff;
+}
+
+#pencil {
+    background-color: #1886f7;
+    color: #fff;
+}
+
+/*END CONTACT SECTION*/
+
+/*FOOTER*/
+#main-footer {
+    color: #fff;
+    background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
