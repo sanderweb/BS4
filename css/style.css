@@ -334,6 +334,59 @@ img:not([alt]) {
     background-color: #000;
 }
 
+.py-5 {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width:1200px){
+    #whatWeDo {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width:992px){
+    #ourHistory h2 {
+        padding-top: 20px;
+    }
+    
+    #whatWeDo {
+        margin-top: 60px;
+    }
+    
+    .caseImage {
+        text-align: center;
+    }
+    
+    .imageContainer {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px){
+    #ourHistory h2 {
+        padding-top: 20px;
+    }
+    
+    #whatWeDo {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width:576px){
+    #ourHistory h2 {
+        padding-top: 20px;
+    }
+    
+    #whatWeDo {
+        margin-top: 60px;
+    }
+}
+
+
+
+
 
 
 
